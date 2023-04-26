@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Outfit:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <title>Consultancy Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      font-family: 'Nunito', sans-serif;
+    }
+    nav::before {
+      content: "";
+      position: absolute;
+      background: url('./images/united-states-2361405.jpg') no-repeat center center/cover;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 550px;
+      z-index: -1;
+      opacity: .9;
+    }
+
+    .end {
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #0b2f69;
+      color: white;
+    }
+
+    .end1 {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-top: 27px;
+    }
+
+    .end1 .client {
+      display: flex;
+      gap: .5rem;
+    }
+
+    @media only screen and (max-width:450px) {
+
+      .end {
+        flex-direction: column;
+        padding-left: 18px;
+
+      }
+
+    }
+
+    .end1 .client img {
+      height: 40px;
+      width: 40px;
+    }
+
+    .end2 {
+      padding-top: 27px;
+    }
+
+    .end2 ul li {
+      list-style: none;
+      padding: 4px;
+      cursor: pointer;
+    }
+
+    .end3 {
+      padding-top: 27px;
+    }
+
+    .end3 ul li {
+      list-style: none;
+      padding: 4px;
+      cursor: pointer;
+    }
+
+    .end4 {
+      padding-top: 27px;
+    }
+
+    .end4 ul li {
+      list-style: none;
+      padding: 4px;
+      cursor: pointer;
+    }
+
+    .end2 ul li:hover {
+      text-decoration: underline;
+    }
+
+    .end3 ul li:hover {
+      text-decoration: underline;
+    }
+
+    .end4 ul li:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <nav
+    class="flex flex-col  pl-5 pr-1 pt-10 h-[550px] md:pl-8 md:px-10 md:flex-row md:pr-5 md:justify-between space-y-10">
+    <div class="flex space-x-3 text-white">
+      <div><img class="w-24"
+          src="./images/Violet and Light Green Modern Gradient Financial Consultant Finance Animated Logo.gif"
+          style="border-radius: 50%;" alt="LOGO">
+        <h1 class="text-4xl py-10 font-semibold">THE 405 CONSULTANCY
+        </h1>
+        <span class="text-xl font-bold ">We help people by sharing their opinons on the <br> policies provided
+          by the goverment and help the <br> goverment by providing a concise data..
+        </span>
+      </div>
+    </div>
+    <div class="flex space-x-1 items-start md:space-x-2">
+      <a class="bg-yellow-600 px-6 py-1 rounded rounded-4 text-white shadow-xl" href="/login">Login</a>
+      <a class="bg-yellow-600 px-6 py-1 rounded rounded-4 text-white shadow-xl" href="/signup">Sign Up</a>
+    </div>
+  </nav>
+  <!-- ************************************TOP SECTION************************************ -->
+  <!-- *********************************POLICY*************************************-->
+  <div class="flex flex-col  px-10 py-5 space-y-3 justify-center bg-white border border-gray-300 mx- ">
+    <h1 class=" text-3xl text-center">Latest Policies</h1>
+    <div class="x-14 bg-[#f8f8f8] border border-gray-300 shadow-xl">
+      <div class="px-4">
+        <a href='' class="text-xl text-blue-500 pt-4 pb-1">National Health Policy</a>
+        <p class="text-md pb-3 pt-1">The National Health Policy, 2017 (NHP, 2017) seeks to reach everyone in a
+          comprehensive integrated way to move towards wellness. It aims at achieving universal health coverage and
+          delivering quality health care services to all at affordable cost.
+        </p>
+        <a style="background-color: rgb(95, 167, 238);color: white;" class="p-1 rounded"
+          href="https://forms.gle/RySFtqTs14kpDM7a9">SUBMIT YOUR FEEDBACK</a>
+      </div>
+    </div>
+    <div class="x-14 bg-[#f8f8f8] border border-gray-300 shadow-xl">
+      <div class="px-4">
+        <a href='' class="text-xl text-blue-500 pt-4 pb-1">National Steel Policy</a>
+        <p class="text-md pb-3 pt-1">The National Steel Policy which was released in 2017 aims to attain a steel
+          production capacity in India of 300 MT by 2030. It has a long-term vision to enhance domestic consumption,
+          produce high-quality steel and make the sector globally competitive.</p>
+        <a style="background-color:rgb(95, 167, 238); color: white;" class="p-1 rounded"
+          href="https://forms.gle/RySFtqTs14kpDM7a9">SUBMIT YOUR FEEDBACK</a>
+      </div>
+    </div>
+    <div class="x-14 bg-[#f8f8f8] border border-gray-300 shadow-xl">
+      <div class="px-4">
+        <a href='' class="text-xl text-blue-500 pt-4 pb-1">National Policy for Women (Draft)</a>
+        <p class="text-md pb-3 pt-1">The National Policy for Women, 2016, serves as a general policy framework that
+          directs different sectors to release more specialized, sector-specific policy documents.</p>
+        <a style="background-color: rgb(95, 167, 238); color: white;" class="p-1 rounded"
+          href="https://forms.gle/RySFtqTs14kpDM7a9">SUBMIT YOUR FEEDBACK</a>
+      </div>
+    </div>
+  </div>
+  <section class="flex flex-col sm:flex-row mt-10 ">
+    <!-- ************************************SIDEBAR************************************ -->
+    <div class="w-full px-3 pt-5 md:pl-7 lg:pl-10 sm:w-1/3 sm:pl-3">
+      <h3 class="bg-[#5b6e96] pt-2 text-white text-start px-3 text-xl">Services related to </h3>
+      <ul class="bg-[#f0f3f7] pt-2 text-[#5b6e96] text-start px-3 py-3 text-xl">
+        <li class="border-b border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-civil-aviation-policy"
+            target="_blank">National Civil Aviation Policy</a>
+        </li>
+        <li class="border-b border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-energy-policy" target="_blank">National
+            Energy Policy</a>
+        </li>
+        <li class="border-b border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-pharmaceutical-policy"
+            target="_blank">National Pharmaceutical Policy</a>
+        </li>
+        <li class="border-b border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-offshore-wind-energy-policy"
+            target="_blank">National Offshore Wind Energy Policy</a>
+        </li>
+        <li class="border-b border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-policy-on-skill-development-and-entrepreneurship"
+            target="_blank">National Policy on Skill Development and Entrepreneurship</a>
+        </li>
+        <li class="border-b border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-agroforestry-policy"
+            target="_blank">National Agroforestry Policy</a>
+        </li>
+        <li class="border-b border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-urban-transport-policy"
+            target="_blank">National Urban Transport Policy</a>
+        </li>
+        <li class="border-black hover:bg-[#25aafe] hover:text-white px-2 py-3"><a
+            href="https://www.clearias.com/national-policies-india/#national-urban-transport-policy" target="_blank">
+            National Policy on Biofuels</a></li>
+        <li class="bg-[#0d469f] text-white sm:px-6 py-5">
+          <a class="hover:text-blue-300" href="">
+            <div class="flex items-center justify-center">
+              <div><img class="invert w-14 pl-1 sm:pl-0 sm:w-24" src="./images/writing-pad-clipboard-icon.png" alt="">
+              </div>
+              <div class="flex items-start flex-col pl-6">
+                <h3 class="text-2xl">
+                  Call Us,
+                </h3>
+                <span class="text-sm text-left">
+                  At Our Toll Free No: 0172-277052;
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- ************************************MAIN************************************ -->
+    <div class="w-full pt-5 px-5 sm:pr-5 md:pr-10 lg:pr-14 sm:w-2/3">
+      <div class="sm:ml-14 bg-[#f8f8f8] border border-gray-300 shadow-2xl">
+        <div class="pl-4">
+          <a href='' class="text-xl text-blue-500 pt-4 pb-1">National Teleconsultation Service</a>
+          <p class="text-md pb-3 pt-1">National Teleconsultation Service aims to provide healthcare services to patients
+            in their homes. Safe &
+            structured video based clinical consultations between a doctor in a hospital and a patient in the confines
+            of his home are being enabled.</p>
+        </div>
+      </div>
+      <h3 class="text-2xl border-b border-black sm:ml-14 mt-10 pb-2 py-2">Related Links</h3>
+      <div>
+        <div class=" py-2 sm:ml-14 bg-white  ">
+          <div class="border-b">
+            <a href='https://services.india.gov.in/service/service_url_redirect?id=MjIyNjc='
+              class="text-xl text-blue-500 pt-4 pb-1" target="_blank">Health ID - Key to your Digital Healthcare
+              Journey</a>
+            <p class="text-md pb-3 pt-1">Using a Health ID is the first step towards creating safer and efficient
+              digital health records for you and your family. You can opt-in to create a digitally secure Health ID,
+              which allows you to access and share your health data with your consent, with participating healthcare
+              providers and payers.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="py-2  sm:ml-14 bg-white  ">
+          <div class="border-b">
+            <a href='https://services.india.gov.in/service/service_url_redirect?id=MjE4MzQ='
+              class="text-xl text-blue-500 pt-4 pb-1" target="_blank">Covid-19 Sample Collection Management System</a>
+            <p class="text-md pb-3 pt-1">The portal at https://covid19cc.nic.in is primarily for entry of authorized
+              person details so that they may use the mobile Apps for transferring RT-PCR, Rapid Antigen and Rapid
+              Antibody tests data to ICMR portal for probable +ve/-ve cases, through their mobile phones. Only
+              authorized Government officials will use this portal.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="py-2  sm:ml-14 bg-white  ">
+          <div class="border-b">
+            <a href='https://services.india.gov.in/service/service_url_redirect?id=MjEzODY='
+              class="text-xl text-blue-500 pt-4 pb-1" target="_blank">Check your nearest vaccination center and slots
+              availability</a>
+            <p class="text-md pb-3 pt-1">CoWIN is a platform to register for vaccination, using your Mobile no. or
+              Aadhaar no. or any other Identity docs. You can choose a preferred nearby Vaccine Center for vaccination.
+              CoWIN also enables you to book your slot to get the vaccine. Any questions you may have may be already
+              answered under the Frequently asked questions (FAQ).</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class=" py-2  sm:ml-14 bg-white  ">
+          <div class="border-b">
+            <a href='https://services.india.gov.in/service/service_url_redirect?id=MjEzODU='
+              class="text-xl text-blue-500 pt-4 pb-1" target="_blank">Information on CoWIN</a>
+            <p class="text-md pb-3 pt-1">Information about the PIB releases link specific to COVID-19.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class=" py-2  sm:ml-14 bg-white  ">
+          <div class="border-b">
+            <a href='https://services.india.gov.in/service/service_url_redirect?id=MTk0NDM='
+              class="text-xl text-blue-500 pt-4 pb-1" target="_blank">PIB releases link specific to COVID-19</a>
+            <p class="text-md pb-3 pt-1">Information about the PIB releases link specific to COVID-19.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ************************************BOTTOM SECTION************************************ -->
+  <div class="flex space-x-5 py-5 justify-center bg-[#f7f7f7] mt-16 ">
+    <div class="border border-gray-300 bg-white">
+      <a href="">
+        <img src="./images/india-gov.png" alt="">
+      </a>
+    </div>
+    <div class="border border-gray-300 bg-white">
+      <a href="">
+        <img src="./images/mygov.png" alt="">
+      </a>
+    </div>
+    <div class="border border-gray-300 bg-white">
+      <a href="">
+        <img src="./images/data-gov.png" alt="">
+      </a>
+    </div>
+    <div class="border border-gray-300 bg-white">
+      <a href="">
+        <img src="images/logo-nic-blue.png" alt="">
+      </a>
+    </div>
+    <div class="border border-gray-300 bg-white">
+      <a href="">
+        <img src="./images/cpgrams.png" alt="">
+      </a>
+    </div>
+    <div class="border border-gray-300 bg-white">
+      <a href="">
+        <img src="./images/g20_logo.png" alt="">
+      </a>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="end">
+    <div class="end1 py-5">
+      <p>Copyright &copy; 2023 All rights reserved</p>
+      <div class="client">
+        <img src="./images/facebook-app-icon.png" alt="">
+        <img src="./images/ig-instagram-icon.png" alt="">
+        <img src="./images/linkedin-app-icon.png" alt="">
+        <img src="./images/twitter-app-icon.png" alt="">
+      </div>
+    </div>
+    <div class="end2 py-5">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Portfolio</li>
+      </ul>
+    </div>
+    <div class="end3 py-5">
+      <ul>
+        <li>Terms & Condition</li>
+        <li>FAQ</li>
+        <li>HelpDesk</li>
+        <li>Job application</li>
+      </ul>
+    </div>
+    <div class="end4 py-5">
+      <ul>
+        <li>Privacy</li>
+        <li>contact us</li>
+        <li>Newsletter</li>
+        <li>Testimonials</li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
